@@ -1,6 +1,7 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter, BsFillTelephoneFill } from "react-icons/bs";
+import { RiTwitterXFill } from "react-icons/ri";
 import Logo from '../assets/kristec-logo.png'
 
 const PageFooter = () => {
@@ -54,7 +55,7 @@ const PageFooter = () => {
                         <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
                             <Footer.Icon href="#" icon={BsFacebook} className='text-black'/>
                             <Footer.Icon href="#" icon={BsInstagram} className='text-black'/>
-                            <Footer.Icon href="#" icon={BsTwitter} className='text-black'/>
+                            <Footer.Icon href="#" icon={RiTwitterXFill} className='text-black'/>
                             <Footer.Icon href="#" icon={BsGithub} className='text-black'/>
                             <Footer.Icon href="#" icon={BsDribbble} className='text-black'/>
                         </div>
