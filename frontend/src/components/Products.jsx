@@ -1,5 +1,4 @@
 import React, { Image } from 'react'
-import { Card } from 'flowbite-react'
 
 const Products = () => {
     return (

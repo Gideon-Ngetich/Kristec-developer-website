@@ -64,7 +64,7 @@ const Services = () => {
                         </div>
                         <div className='flex flex-col gap-5 md:gap-2 h-3/4 px-5'>
                             <span className='font-bold text-xl'>
-                                Solar Installation and Maintenance
+                            Marketing and Branding
                             </span>
                             <span className='text-sm lg:text-xl xl:text-xl'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore eligendi, consequatur a facere mollitia commodi voluptatem? Commodi expedita possimus tempore doloribus! Totam, deserunt harum possimus consectetur provident corrupti earum!
