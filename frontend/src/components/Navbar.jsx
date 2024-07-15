@@ -17,7 +17,7 @@ const Nav = () => {
                     <Navbar.Link href="/" className='text-xl text-black font-semibold'>
                         Home
                     </Navbar.Link>
-                    <Navbar.Link as={Link} href="#" className='text-xl text-black font-semibold'>
+                    <Navbar.Link as={Link} href="/about" className='text-xl text-black font-semibold'>
                         About
                     </Navbar.Link>
                     <Navbar.Link href="/services" className='text-xl text-black font-semibold'>Services</Navbar.Link>
