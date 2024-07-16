@@ -8,7 +8,7 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latestm
-    container: 18
+    container: node:18
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
