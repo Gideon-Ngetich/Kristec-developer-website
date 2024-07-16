@@ -8,9 +8,9 @@ import CustomerReview from '../components/CustomerReview'
 import PageFooter from '../components/Footer'
 
 const Home = () => {
-    const bgImg = 'https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2021/09/White-abstract-background-wallpaper-illustration-e1656162692761.jpg'
+    const bgImg = 'https://wallpapers.com/images/hd/abstract-soft-lines-white-screen-fb9bbohx0315k4d1.jpg'
     return (
-        <div className='bg-repeat-round bg-cover' style={{backgroundImage: `url(${bgImg})`}}>
+        <div className='bg-repeat-y' style={{backgroundImage: `url(${bgImg})`}}>
             <div>
                 <Nav />               
             </div>

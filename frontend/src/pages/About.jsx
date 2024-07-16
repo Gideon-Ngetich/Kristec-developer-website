@@ -3,7 +3,7 @@ import Nav from '../components/Navbar'
 import PageFooter from '../components/Footer'
 
 const About = () => {
-    const bgImg = 'https://ashburnconsulting.com/wp-content/uploads/2022/10/network-eng-1.png'
+    const bgImg = 'https://wallpapers.com/images/hd/information-technology-1920-x-1080-background-l9e9h8wkj7c474fr.jpg'
 
     return (
         <>
@@ -13,11 +13,11 @@ const About = () => {
                 </div>
                 <div>
                     <div
-                        className="bg-cover bg-fixed bg-opacity-100 h-80 md:h-96 lg:h-120 xl:h-160 w-full flex justify-center items-center"
+                        className="bg-contain bg-fixed bg-opacity-100 h-80 md:h-96 lg:h-120 xl:h-160 w-full flex justify-center items-center"
                         style={{ backgroundImage: `url(${bgImg})` }}
                     >
-                        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white">
-                            ABOUT US
+                        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-5xl font-extrabold text-white" style={{fontFamily: 'DM Serif Display'}}>
+                            About Us
                         </p>
                     </div>
                 </div>

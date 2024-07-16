@@ -5,8 +5,8 @@ const Services = () => {
     return (
         <>
             <div className='flex flex-col py-16 px-8 justify-center  items-center'>
-                <div className='text-2xl font-bold'>Our Services</div>
-                <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-1 md:gap-5 w-3/4 py-10'>
+                <div className='text-2xl font-bold' style={{fontFamily: 'pacifico'}}>~ Our Services ~</div>
+                <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-5 md:gap-5 w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4 py-10'>
                     <div className='flex flex-col gap-2 lg:gap-5 pb-10 px-0 rounded-md h-[580px] w-full shadow-xl'>
                         <div className='h-[300px]'>
                             <img src="https://www.seekpng.com/png/detail/991-9914803_who-we-are-network-infrastructure.png" alt="" className='w-full h-60'/>
@@ -15,7 +15,7 @@ const Services = () => {
                             <span className='font-bold text-xl'>
                                 Network design, impementation and Management
                             </span>
-                            <span className='text-sm lg:text-xl xl:text-xl'>
+                            <span className='text-sm lg:text-lg xl:text-lg'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore eligendi, consequatur a facere mollitia commodi voluptatem? Commodi expedita possimus tempore doloribus! Totam, deserunt harum possimus consectetur provident corrupti earum!
                             </span>
                             <span className='flex justify-start items-center py-8 lg:py-3 xl:py-3'>

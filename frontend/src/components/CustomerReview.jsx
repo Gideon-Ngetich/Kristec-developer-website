@@ -9,15 +9,15 @@ const CustomerReview = () => {
     return (
         <>
             <div className='h-[600px]' style={{ backgroundImage: `url(${bg_image})` }}>
-                <div className="flex flex-col justify-center items-center w-full h-[500px] mb-20" >
+                <div className="flex flex-col justify-center items-center w-full h-[570px] mb-20" >
                     <div className='text-3xl font-bold p-10 text-white'>Customer Review</div>
-                    <Carousel className='shadow-lg w-3/4 pb-14 bg-gray-200 rounded-lg'>
+                    <Carousel className='shadow-lg md:w-3/4 lg:w-3/4 xl:w-3/4 2xl:w-3/4 pb-14 bg-gray-200 rounded-lg'>
                         <span className='w-full h-full overflow-hidden '>
-                            <span className='w-full flex justify-center m-5'>
+                            <span className='w-full flex justify-center items-center m-5'>
                                 <img className='w-28 h-28 rounded-full border-4 border-orange-500' src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="" />
                             </span>
                             <span>
-                                <p className='text-center text-xl p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
+                                <p className='text-center text-sm lg:text-xl p-3 lg:p-5 xl:p-5 2xl-p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
                             </span>
                             <span className='flex justify-center items-center text-xl m-5'>
                                 <FaStar />
@@ -36,7 +36,7 @@ const CustomerReview = () => {
                                 <img className='w-28 h-28 rounded-full border-4 border-orange-500' src="https://flowbite.com/docs/images/people/profile-picture-3.jpg" alt="" />
                             </span>
                             <span>
-                                <p className='text-center text-xl p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
+                                <p className='text-center ttext-sm lg:text-xl p-3 lg:p-5 xl:p-5 2xl-p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
                             </span>
                             <span className='flex justify-center items-center text-xl m-5'>
                                 <FaStar />
@@ -54,7 +54,7 @@ const CustomerReview = () => {
                                 <img className='w-28 h-28 rounded-full border-4 border-orange-500' src="https://flowbite.com/docs/images/people/profile-picture-1.jpg" alt="" />
                             </span>
                             <span>
-                                <p className='text-center text-xl p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
+                                <p className='text-center text-sm lg:text-xl p-3 lg:p-5 xl:p-5 2xl-p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non provident quia magni sunt. Dolores odio beatae accusamus eveniet corporis minus quod reprehenderit nemo animi recusandae molestias inventore, laborum deleniti.</p>
                             </span>
                             <span className='flex justify-center items-center text-xl m-5'>
                                 <FaStar />

@@ -8,7 +8,7 @@ const Slider = () => {
         <div className="h-[500px] sm:h-[500px] xl:h-[500px] 2xl:h-[500px]">
             <Carousel className='rounded-none'>
                 <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-24 z-10 bg-black bg-opacity-50">
+                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-12 lg:pl-24 xl:pl-24 2xl:pl-24 z-10 bg-black bg-opacity-50">
                         <p className="text-white text-lg md:text-xl lg:text-xl xl:text-xl  font-bold">GET QUALITY </p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-orange-600" style={{ fontFamily: 'kanit' }}>Unlimited Home WI-FI</p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white">Solution</p>
@@ -17,7 +17,7 @@ const Slider = () => {
                 </div>
 
                 <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-24 z-10 bg-black bg-opacity-50">
+                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-12 lg:pl-24 xl:pl-24 2xl:pl-24 z-10 bg-black bg-opacity-50">
                         <p className="text-white text-lg md:text-xl lg:text-xl xl:text-xl  font-bold">GET THE BEST </p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-orange-600" style={{ fontFamily: 'kanit' }}>WI-FI Hotspot</p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white">Solution</p>
@@ -26,7 +26,7 @@ const Slider = () => {
                 </div>
 
                 <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-24 z-10 bg-black bg-opacity-50">
+                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-12 lg:pl-24 xl:pl-24 2xl:pl-24 z-10 bg-black bg-opacity-50">
                         <p className="text-white text-lg md:text-xl lg:text-xl xl:text-xl  font-bold">GET THE BEST </p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-orange-600" style={{ fontFamily: 'kanit' }}>Home and Business Security</p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white">Solution</p>
@@ -35,7 +35,7 @@ const Slider = () => {
                 </div>
 
                 <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-24 z-10 bg-black bg-opacity-50">
+                    <div className="absolute w-full h-full flex flex-col gap-0 md:gap-2 lg:gap-3 xl:gap-3 items-start justify-center pl-12 lg:pl-24 xl:pl-24 2xl:pl-24 z-10 bg-black bg-opacity-50">
                         <p className="text-white text-lg md:text-xl lg:text-xl xl:text-xl  font-bold">GET THE BEST </p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-orange-600" style={{ fontFamily: 'kanit' }}>Personal and Company Website</p>
                         <p className="text-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white">Solution</p>
