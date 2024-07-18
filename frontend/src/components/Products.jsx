@@ -1,12 +1,20 @@
-import React, { Image } from 'react'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import ProdactsData from '../../Data/ProductsData.json'
 
+
 const Products = () => {
+    const navigate = useNavigate();
+
+    function handleClick(){
+        navigate('/products')
+    }
+
     return (
         <>
             <div className="flex flex-col justify-center items-center">
                 <div className='text-2xl font-bold' style={{ fontFamily: 'pacifico' }}>~ Our Products ~</div>
-                <div className='flex flex-col md:flex-row lg:flex-row xl:flex-row gap-7 px-10 py-16'>
+                <div onClick={handleClick} className='flex flex-col md:flex-row lg:flex-row xl:flex-row gap-7 px-10 py-16 cursor-pointer'>
                     {
                         ProdactsData && ProdactsData.map((content) => {
                             return (

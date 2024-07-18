@@ -7,6 +7,19 @@ const Services = () => {
     const bgImg = 'https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg'
     const bckImg = 'https://wallpapers.com/images/hd/abstract-soft-lines-white-screen-fb9bbohx0315k4d1.jpg'
 
+    // const [loading, setLoading] = useState(true);
+
+    // useEffect(() =>{
+    //     const timer = setTimeout(() =>{
+    //         setLoading(false)
+    //     }, 3000)
+
+    //     return () => clearTimeout(timer)
+    // }, [])
+
+    // if(loading){
+    //     return <Loader />
+    // }
 
     return (
         <>

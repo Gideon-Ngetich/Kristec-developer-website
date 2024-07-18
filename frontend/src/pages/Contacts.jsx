@@ -9,6 +9,20 @@ const Contacts = () => {
     const bckImg = 'https://static.vecteezy.com/system/resources/previews/008/084/574/non_2x/telecommunication-tower-with-5g-cellular-network-antenna-on-city-background-global-connection-and-internet-network-concept-free-photo.JPG'
     const backImg = 'https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2021/09/White-abstract-background-wallpaper-illustration-e1656162692761.jpg'
 
+    // const [loading, setLoading] = useState(true);
+
+    // useEffect(() =>{
+    //     const timer = setTimeout(() =>{
+    //         setLoading(false)
+    //     }, 3000)
+
+    //     return () => clearTimeout(timer)
+    // }, [])
+
+    // if(loading){
+    //     return <Loader />
+    // }
+
     return (
         <>
             <div>

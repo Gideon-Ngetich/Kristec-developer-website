@@ -5,6 +5,20 @@ import PageFooter from '../components/Footer'
 const About = () => {
     const bgImg = 'https://wallpapers.com/images/hd/information-technology-1920-x-1080-background-l9e9h8wkj7c474fr.jpg'
 
+    // const [loading, setLoading] = useState(true);
+
+    // useEffect(() =>{
+    //     const timer = setTimeout(() =>{
+    //         setLoading(false)
+    //     }, 3000)
+
+    //     return () => clearTimeout(timer)
+    // }, [])
+
+    // if(loading){
+    //     return <Loader />
+    // }
+
     return (
         <>
             <div>
