@@ -7,10 +7,10 @@ const Services = () => {
         <>
             <div className='flex flex-col py-16 px-8 justify-center  items-center'>
                 <div className='text-2xl font-bold' style={{ fontFamily: 'pacifico' }}>~ Our Services ~</div>
-                {/* {
-                    ServiceData && ServiceData.map((content) => {
-                        return (
-                            <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-5 md:gap-5 w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4 py-10'>
+                <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-5 md:gap-5 w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4 py-10'>
+                    {
+                        ServiceData && ServiceData.map((content) => {
+                            return (
                                 <div className='flex flex-col gap-2 lg:gap-5 pb-10 px-0 rounded-md h-[580px] w-full shadow-xl'>
                                     <div className='h-[300px]'>
                                         <img src={content.image} alt="" className='w-full h-60' />
@@ -24,17 +24,18 @@ const Services = () => {
                                             {content.body}
                                         </span>
                                         <span className='flex justify-start items-center py-8 lg:py-3 xl:py-3'>
-                                            <a className='px-5 text-blue-700 cursor-pointer hover:text-blue-800 duration-75'>Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                            <a href='/services' className='px-5 text-blue-700 cursor-pointer hover:text-blue-800 duration-75'>Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                         </span>
                                     </div>
                                 </div>
 
-                            </div>
 
-                        )
-                    })
-                } */}
-                <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-5 md:gap-5 w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4 py-10'>
+
+                            )
+                        })
+                    }
+                </div>
+                {/* <div className='flex flex-col lg:grid md:grid xl:grid grid-rows-2 grid-cols-2 gap-5 md:gap-5 w-full lg:w-3/4 xl:w-3/4 2xl:w-3/4 py-10'>
                     <div className='flex flex-col gap-2 lg:gap-5 pb-10 px-0 rounded-md h-[580px] w-full shadow-xl'>
 
                         <div className='h-[300px]'>
@@ -108,7 +109,7 @@ const Services = () => {
 
 
 
-                </div>
+                </div> */}
             </div>
         </>
 
